@@ -1,0 +1,107 @@
+.heading {
+    width: 100%;
+    text-align: left;
+}
+
+.heading h3 {
+    display: inline;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-direction: alternate-reverse;
+
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-direction: alternate-reverse;
+}
+
+.big_image {
+    width: 90%;
+}
+
+#start,
+#status {
+    font-size: 22px;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-direction: alternate-reverse;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.instrucion_image {
+    display: inline-block;
+    width: 45%;
+}
+
+h4 {
+    background-color: black;
+    color: lime;
+    line-height: 2;
+    margin: 0px;
+}
+
+video {
+    background:url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    }
+
+@keyframes animation {
+    0% {
+        box-shadow: 10px 10px 10px red;
+    }
+
+    10% {
+        border-radius: 2000px;
+    }
+
+    20% {
+        box-shadow: 50px 50px 50px yellow;
+    }
+
+    30% {
+        border-radius: 5000px;
+    }
+
+    40% {
+        font-size: 25px;
+    }
+
+    50% {
+        font-weight: bold;
+    }
+
+    60% {
+        font-style: italic;
+    }
+
+    70% {
+        font-weight: bolder;
+    }
+
+    80% {
+        font-style: inherit;
+    }
+
+    90% {
+        background-color: black;
+    }
+
+    100% {
+        color: lime;
+    }
+}
